@@ -4,4 +4,4 @@ counter = 0
 print(f"The multiplication table of {number} is:")
 while (counter < count):
     counter = counter + 1
-    print(f"{number:2} x {counter:2} = {number * counter:3}")
+    print(f"{number:2d} x {counter:2d} = {number * counter:3d}")
